@@ -1,5 +1,0 @@
-CREATE SEQUENCE seq_id_Audits
-    START WITH 1
-    INCREMENT BY 1
-    NOCACHE
-    NOCYCLE;

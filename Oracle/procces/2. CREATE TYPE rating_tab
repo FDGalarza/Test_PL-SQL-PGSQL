@@ -1,0 +1,1 @@
+CREATE OR REPLACE TYPE rating_tab AS TABLE OF rating_obj;
