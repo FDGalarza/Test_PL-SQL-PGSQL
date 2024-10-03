@@ -11,16 +11,17 @@ contiene los procesos oracle y postgres para sar solución al problema planteado
 - Reto 6: Se da solución con los trigger trg_audit_videogames de la tabla videogames
 - Reto 7: Se da solución con el procedimiento practical_test.update_ratings
 - Reto 8: Se da solución con los archivos contenidos en la carpeta Postgres\DLL_Statements
-- Reto 9: Se da solución de dos maneras
-		  * Lo primero que se debe tener en cuenta es que se debe ejecutar el archivo
-		     Postgres\DML_Statement\1. NSERT Companies.sql para poblar la tabla companies.
-		  * Por medio del ETL pentaho
+- Reto 9: 
+		  * Por medio del ETL pentaho se encuentra en la carpeta Pentaho
 		  * Se construyen el procedimiento practical_test.export_videogames_ratings_to_csv
 		     de oracle para exporta la data en un archivo CSV, tener en cuenta que se debe 
 			 crear la carpeta donde se exportara el archivo ejecutando el archivo
 			 Oracle\DLL_statements\22. CREATE DIRECTORY.sql.
 			 Se crea el procedimiento load_data_from_csv, para importar el archivo creado 
 			 por el procedimiento de oracle a la base de datos de postgres
+		  *  La solución por cargue manual no fue ejecutada, pero igualmente se adjuntan
+		     los archivos para realizar el cargue Postgres\DML_Statement\CONSOLIDATE_DLL.sql
+			 
 - Reto 10: Se da solució con la función get_game_ranking de la carpeta Postgres\Procces
 
 # DLL
