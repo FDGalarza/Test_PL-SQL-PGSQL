@@ -1,0 +1,9 @@
+-- Create Companies table
+CREATE TABLE Companies (
+    company_id NUMBER PRIMARY KEY,
+    company_name VARCHAR2(100) NOT NULL,
+    created_at TIMESTAMP DEFAULT SYSTIMESTAMP NOT NULL,
+    updated_at TIMESTAMP DEFAULT SYSTIMESTAMP NOT NULL,
+    created_by VARCHAR2(30) DEFAULT USER NOT NULL,
+    updated_by VARCHAR2(30) DEFAULT USER NOT NULL
+);

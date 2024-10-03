@@ -1,0 +1,27 @@
+-- Semilla tabla companies
+INSERT INTO Companies (company_id, company_name, created_at, updated_at, created_by, updated_by) 
+VALUES (null,'From Software', SYSDATE, SYSDATE, 'FGALARZA', 'FGALARZA'); 
+INSERT INTO Companies (company_id, company_name, created_at, updated_at, created_by, updated_by) 
+VALUES (null,'StudioMDHR', SYSDATE, SYSDATE, 'FGALARZA', 'FGALARZA'); 
+INSERT INTO Companies (company_id, company_name, created_at, updated_at, created_by, updated_by) 
+VALUES (null,'Konami', SYSDATE, SYSDATE, 'FGALARZA', 'FGALARZA');
+INSERT INTO Companies (company_id, company_name, created_at, updated_at, created_by, updated_by) 
+VALUES (null,'Koei Tecmo', SYSDATE, SYSDATE, 'FGALARZA', 'FGALARZA');
+INSERT INTO Companies (company_id, company_name, created_at, updated_at, created_by, updated_by) 
+VALUES (null,'Extremely OK Games', SYSDATE, SYSDATE, 'FGALARZA', 'FGALARZA');
+INSERT INTO Companies (company_id, company_name, created_at, updated_at, created_by, updated_by) 
+VALUES (null,'Rare', SYSDATE, SYSDATE, 'FGALARZA', 'FGALARZA');
+INSERT INTO Companies (company_id, company_name, created_at, updated_at, created_by, updated_by) 
+VALUES (null,'Team17', SYSDATE, SYSDATE, 'FGALARZA', 'FGALARZA');
+INSERT INTO Companies (company_id, company_name, created_at, updated_at, created_by, updated_by) 
+VALUES (null,'Ska Studios', SYSDATE, SYSDATE, 'FGALARZA', 'FGALARZA');
+INSERT INTO Companies (company_id, company_name, created_at, updated_at, created_by, updated_by) 
+VALUES (null,'Direct2Drive', SYSDATE, SYSDATE, 'FGALARZA', 'FGALARZA');
+INSERT INTO Companies (company_id, company_name, created_at, updated_at, created_by, updated_by) 
+VALUES (null,'Team Cherry', SYSDATE, SYSDATE, 'FGALARZA', 'FGALARZA');
+INSERT INTO Companies (company_id, company_name, created_at, updated_at, created_by, updated_by) 
+VALUES (null,'Nintendo', SYSDATE, SYSDATE, 'FGALARZA', 'FGALARZA');
+INSERT INTO Companies (company_id, company_name, created_at, updated_at, created_by, updated_by) 
+VALUES (null,'Capcom', SYSDATE, SYSDATE, 'FGALARZA', 'FGALARZA');
+
+COMMIT;
